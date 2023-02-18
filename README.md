@@ -9,3 +9,9 @@ Develop Realtime Streaming Ingestion from MongoDB Atlas into Hudi Datalake with 
 * processing streaming data using glue 3.0 and insert into hudi data lake 
 
 
+#### Settings on Glue 4.0 on Job parameters 
+
+```
+--conf   spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.sql.hive.convertMetastoreParquet=false
+--datalake-formats  hudi
+```
