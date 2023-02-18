@@ -2,6 +2,9 @@ Develop Realtime Streaming Ingestion from MongoDB Atlas into Hudi Datalake with 
 
 ![image](https://user-images.githubusercontent.com/39345855/219885203-953ace3a-4285-4023-82eb-6c21a68ebfc6.png)
 
+### Video Guide 
+* https://youtu.be/yfZx1P9ovxA
+
 ## Macro Steps 
 * Create MongoDB Atlas Clusters 
 * create Trigger to fwd events to event bridge 
